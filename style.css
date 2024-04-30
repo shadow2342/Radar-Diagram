@@ -1,0 +1,47 @@
+body
+{
+    width: 100vw;
+    height:100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    direction: rtl;
+}
+.container
+{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.holders
+{
+    width: 90%;
+    height: 20%;
+    top: 80%;
+    position: absolute;
+    /* background-color: aqua; */
+    z-index: 999;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    justify-content: space-around;
+    padding-right: 50px;
+}
+div
+{
+    width: 15px;
+    height: 15px;
+}
+.divs
+{
+    margin-right: 5px;
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
